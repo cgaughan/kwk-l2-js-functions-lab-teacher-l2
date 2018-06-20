@@ -23,6 +23,15 @@ function calculatesFarePrice(input1, input2) {
   if (calculatedFeet <= 400){
       cost = 0;
   }
+  else if (calculatedFeet > 400 && calculatedFeet<=2000){
+    cost = 0.02 * Math.abs(calculatedFeet - 400);
+  }
+  else if (calculatedFeet > 2000 && calculatedFeet < 2500) {
+    cost = 25
+  }
+  else (calculatedFeet > 2500) {
+    return "Cannot travel that far";
+  }
 
 
 
