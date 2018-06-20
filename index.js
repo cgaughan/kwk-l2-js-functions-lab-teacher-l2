@@ -17,9 +17,9 @@ function distanceTravelledInFeet (input1, input2) {
   return betweenBlocks;
 }
 
-function calculatesFarePrice(start, destination) {
+function calculatesFarePrice(input1, input2) {
   let cost;
-  calculatedFeet = distanceTravelledInFeet(start, destination);
+  calculatedFeet = distanceTravelledInFeet(input1, input2);
   if (calculatedFeet <= 400){
       cost = 0;
   }
