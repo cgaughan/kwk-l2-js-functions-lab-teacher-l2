@@ -29,7 +29,7 @@ function calculatesFarePrice(input1, input2) {
   else if (calculatedFeet > 2000 && calculatedFeet < 2500) {
     cost = 25
   }
-  else (calculatedFeet > 2500) {
+  else if (calculatedFeet > 2500) {
     return "Cannot travel that far";
   }
 
