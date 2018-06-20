@@ -9,3 +9,10 @@ function distanceFromHqInFeet(input) {
   blockNumber = Math.abs(input -42)*264;
   return blockNumber;
 }
+
+function distanceTravelledInFeet (input1, input2) {
+  let block1 = input1;
+  let block2 = input2;
+  betweenBlocks = Math.abs(input1 - input2)*264;
+  return betweenBlocks;
+}
